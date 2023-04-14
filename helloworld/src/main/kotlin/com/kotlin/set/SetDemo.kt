@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
     mutableList.add(6)
     //println(mutableList)
     val immutableList= listOf<Int>(1,2,3,4,5)
+
     //println(immutableList)
     val immutableMap= mapOf<Int,Int>(1 to 10,2 to 6)
     val mutableMap= mutableMapOf<Int,Int>(1 to 10,2 to 6)
@@ -21,6 +22,6 @@ fun main(args: Array<String>) {
     println(setOfInts.drop(3))
 
     val mutableSet= mutableSetOf<Int>(100,200,300,400)
-    mutableSet.plus(500)
+   println(mutableSet.plus(500))
     println(mutableSet)
 }
