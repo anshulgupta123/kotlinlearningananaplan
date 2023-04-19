@@ -1,8 +1,5 @@
 package com.kotlin.practice
 
-import com.kotlin.casting.Employee
-import com.kotlin.enums.Department
-
 fun main(args: Array<String>) {
 
     val employee = Employee("Ankit")
